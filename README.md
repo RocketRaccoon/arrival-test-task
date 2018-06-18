@@ -8,9 +8,9 @@ cd arrival-test-task
 ```bash
 # use just "graldew" for windows
 
-$ ./gradlew clean test --info # to run tests
-
 $ ./gradlew downloadAllure # to download allure
+
+$ ./gradlew clean test --info # to run tests
 
 $ ./gradlew allureServe # to open report
 ```
