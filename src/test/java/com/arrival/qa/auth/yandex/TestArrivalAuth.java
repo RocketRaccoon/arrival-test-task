@@ -48,7 +48,7 @@ class TestArrivalAuth {
     }
 
     @Test
-    void test() throws Exception {
+    void authYandexPassport() throws Exception {
 
         log.info("Prepare auth request context");
         String page = getPageContent(ctx.authUrl());
